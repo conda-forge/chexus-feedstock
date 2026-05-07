@@ -1,6 +1,6 @@
 context:
   name: chexus
-  version: 25.1.0
+  version: "26.5.0"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/chexus-${{ version }}.tar.gz
-  sha256: e01d2e3caae46dab06e9fb2fba529a0f4bd76a205cb01aa8b2c2ef0208e2691f
+  sha256: 4f267336d883cc5703e6359f28a4448111de1f5bd7bb093ca97c3b46f6176b2c
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - setuptools-scm >=8.0
     - pip
   run:
-    - python >=${{ python_min }} 
+    - python >=${{ python_min }}
     - h5py
 
 tests:
