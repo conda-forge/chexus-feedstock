@@ -1,6 +1,6 @@
 context:
   name: chexus
-  version: "26.5.0"
+  version: "26.5.1"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/chexus-${{ version }}.tar.gz
-  sha256: 4f267336d883cc5703e6359f28a4448111de1f5bd7bb093ca97c3b46f6176b2c
+  sha256: b2ed6c640a27e3b69761d50d36f1cc95cd1b1a3b6584dbf449a7dda24daabec8
 
 build:
   number: 0
